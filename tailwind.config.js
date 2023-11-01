@@ -3,10 +3,11 @@ export default {
 	content: ['./index.html', './src/**/*.{tsx, ts}'],
 	darkMode: 'class',
 	theme: {
+		colors: {
+			blue: '#4756df',
+      black: '#0c0c0c'
+		},
 		extend: {
-			colors: {
-				blue: '#4756df',
-			},
 			fontFamily: { inter: ['inter', 'serif'] },
 		},
 	},
