@@ -1,13 +1,16 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-	content: ["./index.html',' ./src/**/*.{tsx,js}"],
-  darkMode: 'class',
+export default {
+	content: ['./index.html', './src/**/*.{tsx, ts}'],
+	darkMode: 'class',
 	theme: {
+		colors: {
+			blue: '#4756df',
+      black: '#0c0c0c',
+      orange: '#ff7235'
+		},
 		extend: {
-      fontFamily: {
-        inter: ['inter', 'inter-serif']
-      }
-    },
+			fontFamily: { inter: ['inter', 'serif'] },
+		},
 	},
 	plugins: [],
 };
