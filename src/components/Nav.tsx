@@ -7,7 +7,7 @@ function Nav() {
 				{/* TODO click to top of page, style */}
 				Israel Black
 			</a>
-			<ul className=" space-x-5">
+			<ul className=" space-x-5 text-lg">
 				<a>About</a>
 				<a>Skill</a>
 				<a>Projects</a>
