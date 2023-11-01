@@ -4,6 +4,9 @@ export default {
 	darkMode: 'class',
 	theme: {
 		extend: {
+			colors: {
+				blue: '#4756df',
+			},
 			fontFamily: { inter: ['inter', 'serif'] },
 		},
 	},
