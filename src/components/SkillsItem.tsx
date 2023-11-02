@@ -1,6 +1,6 @@
 import React from "react";
 
-function Skills(title:string, imgurl:string, description:string, stack:Array<string>, link:string) {
+function SkillsItem(title:string, imgurl:string, description:string, stack:Array<string>, link:string) {
   return(
     <div>
       <img 
@@ -21,4 +21,4 @@ function Skills(title:string, imgurl:string, description:string, stack:Array<str
   )
 }
 
-export default Skills;
+export default SkillsItem;
