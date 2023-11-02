@@ -6,7 +6,8 @@ export default {
 		colors: {
 			blue: '#4756df',
       black: '#0c0c0c',
-      orange: '#ff7235'
+      orange: '#ff7235',
+      white: '#ffffff'
 		},
 		extend: {
 			fontFamily: { inter: ['inter', 'serif'] },
