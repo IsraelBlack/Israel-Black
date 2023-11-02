@@ -4,7 +4,7 @@ import About from './About';
 function Nav() {
 	return (
 		<nav
-			className=" fixed w-full flex justify-between px-13 p-5 
+			className=" sticky top-0 w-full flex z-50 justify-between px-13 p-5 
     items-center bg-white shadow-md text-blue md:font-bold  "
 		>
 			<a
