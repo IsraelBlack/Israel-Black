@@ -10,7 +10,7 @@ function Skills() {
 					<SkillsItem
 						imgUrl={project.imgUrl}
 						title={project.title}
-						description={project.description}
+						
 						stack={project.stack}
 						link={project.link}
 					/>
