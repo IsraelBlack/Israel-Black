@@ -2,8 +2,8 @@ import React from 'react';
 
 function MoreAbout() {
 	return (
-		<div className="invisible md:visible justify-center items-center p-8">
-			<h2 className="font-serif font-bold text-lg md:text-2xl ">
+		<div className="hidden md:block justify-center items-center px-96 py-10 overflow-hidden">
+			<h2 className="font-serif font-bold text-2xl ">
 				More About Me
 			</h2>
 			<p>
@@ -21,7 +21,6 @@ function MoreAbout() {
 			</p>
 
 			<p>
-			
 				My people skills include my ability to breakdown concepts for people not
 				familiar with them from my experience in Teaching English to Speakers of
 				Other Languages (TESOL). Client side communication and problem solving
