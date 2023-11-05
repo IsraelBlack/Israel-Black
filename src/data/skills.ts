@@ -1,20 +1,20 @@
 export default [
 	{
-		imgUrl: '../skills/react.svg',
+		imgUrl: './assets/skills/react.svg',
 	},
 	{
-		imgUrl: '../skills/Typescript.svg',
+		imgUrl: './assets/skills/Typescript.svg',
 	},
 	{
-		imgUrl: '../skills/tailwindcss.svg',
+		imgUrl: './assets/skills/tailwindcss.svg',
 	},
 	{
-		imgUrl: '../skills/sass.svg',
+		imgUrl: './assets/skills/sass.svg',
 	},
 	{
-		imgUrl: '../skills/redux.svg',
+		imgUrl: './assets/skills/redux.svg',
 	},
 	{
-		imgUrl: '../skills/git.svg',
+		imgUrl: './assets/skills/git.svg',
 	},
 ];
