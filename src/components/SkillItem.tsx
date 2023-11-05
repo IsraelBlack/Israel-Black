@@ -1,11 +1,15 @@
-import React from "react";
+import React from 'react';
 
-function SkillsItem() {
-  return(
-    <div>
-      <img />
-    </div>
-  )
+interface Props {
+	imgUrl: string;
+}
+
+function SkillsItem({ imgUrl }: Props) {
+	return (
+		<div className="border border-white rounded-lg shadow-2xl justify-center">
+			<img src={imgUrl} alt="skills" className="w-44" />
+		</div>
+	);
 }
 
 export default SkillsItem;

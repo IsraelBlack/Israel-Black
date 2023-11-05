@@ -7,7 +7,7 @@ interface Props {
 	link: string;
 }
 
-function SkillsItem({ title, imgUrl, stack, link }: Props) {
+function ProjectItem({ title, imgUrl, stack, link }: Props) {
 	return (
 		<div className="border-2 rounded-md overflow-hidden justify-center ">
 			<img
@@ -37,4 +37,4 @@ function SkillsItem({ title, imgUrl, stack, link }: Props) {
 	);
 }
 
-export default SkillsItem;
+export default ProjectItem;
