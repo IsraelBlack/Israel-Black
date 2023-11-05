@@ -1,10 +1,11 @@
 import React from 'react';
+import AboutItem from './AboutItem';
 
 function About() {
 	return (
-		<div>
-			<img src="./assets/programmer.jpg" />
-			<h3 className="flex z-0"></h3>
+		<div className="flex flex-col md:flex-row items-center justify-center">
+			<img src="./assets/programmer.jpg" className="w-3/5 h-auto md:w-1/3" />
+			<AboutItem />
 		</div>
 	);
 }
