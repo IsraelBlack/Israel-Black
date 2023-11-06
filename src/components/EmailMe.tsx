@@ -9,8 +9,13 @@ function EmailMe() {
 					method="Post"
 					className="flex flex-col w-full md:w-7/12"
 				>
-          
-        </form>
+					<input
+						type="text"
+						name="name"
+						placeholder="Name"
+						className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+					/>
+				</form>
 			</div>
 		</div>
 	);
