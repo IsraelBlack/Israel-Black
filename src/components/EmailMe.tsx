@@ -5,7 +5,7 @@ function EmailMe() {
 		<div className="flex flex-col mb-10 mx-auto">
 			<div className="flex justify-center">
 				<form
-					action="#"
+					action="https://getform.io/f/b2eeafd7-7ebb-41bc-bc47-79b5be139d61"
 					method="Post"
 					className="flex flex-col w-full md:w-7/12"
 				>
@@ -30,7 +30,7 @@ function EmailMe() {
 					<button
 						type="button"
 						className="text-center inline-block px-8 py-3 w-max text-base font-medium 
-            rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 
+            rounded-md text-white bg-gradient-to-r from-blue to-green 
             drop-shadow-md hover:stroke-white"
 					>
 						Contact Me
