@@ -5,17 +5,17 @@ export default {
 	theme: {
 		colors: {
 			blue: '#4756df',
-      black: '#0c0c0c',
-      orange: '#ff7235',
-      white: '#ffffff',
-      gray: ' 	#E2E3DF  ',
-      greenDark: "#008575 "
+			black: '#0c0c0c',
+			orange: '#ff7235',
+			white: '#f2f2f2',
+			gray: ' 	#E2E3DF  ',
+			greenDark: '#008575 ',
 		},
 		extend: {
 			fontFamily: { inter: ['inter', 'serif'] },
-      boxShadow: { 
-        'cust': '0px 2px 15px 2px rgb(107, 114, 128)',
-       }
+			boxShadow: {
+				cust: '0px 2px 15px 2px rgb(107, 114, 128)',
+			},
 		},
 	},
 	plugins: [],
