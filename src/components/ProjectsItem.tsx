@@ -9,7 +9,7 @@ interface Props {
 
 function ProjectItem({ title, imgUrl, stack, link }: Props) {
 	return (
-		<div className="border-2 rounded-md overflow-hidden justify-center bg-white">
+		<div className="border-2 border-white shadow-2xl rounded-md overflow-hidden justify-center bg-white">
 			<img
 				src={imgUrl}
 				alt="project"
@@ -21,14 +21,14 @@ function ProjectItem({ title, imgUrl, stack, link }: Props) {
 				</h3>
 				<p className="flex flex-wrap gap-2 flex-row items-center justify-center text-sm md:text-base">
 					{stack.map((item) => (
-						<span className="inline-block px-2 py-1  font-semibold border-2 border-stone-900 rounded-md">
+						<span className="inline-block px-2 py-1  font-semibold border-2 border- rounded-md">
 							{item}
 						</span>
 					))}
 				</p>
 				<a
 					href={link}
-					className="inline-block text-greenDark border-2 border-greenDark rounded-md mt-2 px-1"
+					className="inline-block border-2 border-greenDark rounded-md mt-2 px-1 bg-greenLight"
 				>
 					Check it Out
 				</a>
