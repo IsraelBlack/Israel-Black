@@ -8,7 +8,8 @@ export default {
       black: '#0c0c0c',
       orange: '#ff7235',
       white: '#ffffff',
-      gray: '#6b7280'
+      gray: ' 	#E2E3DF  ',
+      greenDark: "#008575 "
 		},
 		extend: {
 			fontFamily: { inter: ['inter', 'serif'] },

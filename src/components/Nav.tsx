@@ -5,7 +5,7 @@ function Nav() {
 	return (
 		<nav
 			className=" sticky top-0 w-full flex z-50 justify-between px-13 p-5 
-    items-center bg-white shadow-md text-blue md:font-bold  "
+    items-center bg-white shadow-md text-greenDark md:font-bold  "
 		>
 			<a
 				href="#"
