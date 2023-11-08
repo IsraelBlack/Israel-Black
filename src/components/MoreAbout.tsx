@@ -2,7 +2,7 @@ import React from 'react';
 
 function MoreAbout() {
 	return (
-		<div className="hidden md:flex flex-col justify-center items-center px-96 py-10 overflow-hidden text-lg">
+		<div className="hidden md:flex flex-col justify-center items-center px-96 py-10 overflow-hidden text-lg bg-gray">
 			<h2 className="font-serif font-bold text-2xl ">More About Me</h2>
 			<p>
 				During my time as a Linguistics student, I made friends with tech people
