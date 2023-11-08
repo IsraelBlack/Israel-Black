@@ -4,7 +4,10 @@ import SkillsItem from './SkillItem';
 
 function Skills() {
 	return (
-		<div className="flex flex-col items-center justify-center px-5 m-10 bg-gray">
+		<div
+			className="flex flex-col items-center justify-center px-5 m-10 bg-gray"
+			id="skills"
+		>
 			<h1 className="text-lg md:text-2xl font-bold text-greenDark p-5">
 				Top Skills
 			</h1>
@@ -15,6 +18,7 @@ function Skills() {
 					))}
 				</div>
 			</div>
+			<div id="projects"></div>
 		</div>
 	);
 }

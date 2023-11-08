@@ -4,7 +4,10 @@ import ProjectsItem from './ProjectsItem';
 
 function Projects() {
 	return (
-		<div className="flex flex-col items-center justify-center px-5 m-10">
+		<div
+			className="flex flex-col items-center justify-center px-5 m-10"
+			id="projects"
+		>
 			<h1 className="text-lg md:text-2xl font-bold text-greenDark p-5">
 				Projects
 			</h1>{' '}
