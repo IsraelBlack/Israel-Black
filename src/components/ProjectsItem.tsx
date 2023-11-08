@@ -28,7 +28,7 @@ function ProjectItem({ title, imgUrl, stack, link }: Props) {
 				</p>
 				<a
 					href={link}
-					className="inline-block border-2 border-greenDark rounded-md mt-2 px-1 bg-greenLight"
+					className="inline-block border-2 border-greenDark rounded-md mt-2 px-1 md:p-2 bg-greenLight text-whiteLight md:text-lg"
 				>
 					Check it Out
 				</a>

@@ -1,7 +1,7 @@
 export default [
 	{
 		title: 'Portfolio Website',
-		imgUrl: './assets/projects/TopOfWebsite.png',
+		imgUrl: './assets/projects/Portfolio.png',
 		description: '',
 		stack: ['React', 'Vite', 'Tailwind'],
 		link: 'https://github.com/IsraelBlack/react-portfolio',
