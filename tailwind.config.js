@@ -10,6 +10,7 @@ export default {
 			white: '#f2f2f2',
 			gray: ' 	#E2E3DF  ',
 			greenDark: '#008575 ',
+			red: '#850010',
 		},
 		extend: {
 			fontFamily: { inter: ['inter', 'serif'] },
