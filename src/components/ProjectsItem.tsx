@@ -9,7 +9,7 @@ interface Props {
 
 function ProjectItem({ title, imgUrl, stack, link }: Props) {
 	return (
-		<div className="border-2 rounded-md overflow-hidden justify-center ">
+		<div className="border-2 rounded-md overflow-hidden justify-center bg-white">
 			<img
 				src={imgUrl}
 				alt="project"
