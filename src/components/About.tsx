@@ -3,7 +3,7 @@ import AboutItem from './AboutItem';
 
 function About() {
 	return (
-		<div className="flex flex-col md:flex-row items-center justify-center">
+		<div className="flex flex-col md:flex-row items-center justify-center bg-gray">
 			<img src="./assets/programmer.jpg" className="w-3/5 h-auto md:w-1/3" />
 			<AboutItem />
 		</div>
