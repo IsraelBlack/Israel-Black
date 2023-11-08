@@ -4,7 +4,7 @@ export default {
 	darkMode: 'class',
 	theme: {
 		colors: {
-			blue: '#4756df',
+			blue: '#0b0085',
 			black: '#0c0c0c',
 			orange: '#ff7235',
 			white: '#f2f2f2',
