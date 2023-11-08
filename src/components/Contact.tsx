@@ -2,7 +2,10 @@ import React from 'react';
 
 function Contact() {
 	return (
-		<div className="flex flex-col fixed right-0 bottom-1/2 w-12">
+		<div
+			className="flex flex-col fixed right-0 bottom-1/2 w-12 md:w-20 p-1
+      border border-whiteLight rounded-2xl shadow-2xl justify-center bg-whiteLight"
+		>
 			<ul>
 				<li>
 					<a href="https://www.linkedin.com/in/israel-black/" target="blank">

@@ -30,7 +30,7 @@ function EmailMe() {
 					<button
 						type="button"
 						className="text-center inline-block px-8 py-3 w-max text-base font-medium 
-            rounded-md text-white bg-gradient-to-r from-blue to-pink-500 drop-shadow-md
+            rounded-md text-white bg-gradient-to-r from-greenDark to-blue drop-shadow-md
              hover:stroke-white"
 					>
 						Work With Me
