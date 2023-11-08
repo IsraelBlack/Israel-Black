@@ -11,6 +11,7 @@ export default {
 			whiteLight: '#ffffff',
 			gray: ' 	#E2E3DF  ',
 			greenDark: '#008575 ',
+			greenLight: '#27DEBF',
 			red: '#850010',
 		},
 		extend: {
