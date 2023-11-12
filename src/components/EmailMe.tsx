@@ -7,7 +7,7 @@ function EmailMe() {
 				<form
 					action="https://getform.io/f/b2eeafd7-7ebb-41bc-bc47-79b5be139d61"
 					method="POST"
-					className="flex flex-col w-full md:w-7/12"
+					className="flex flex-col w-3/4  md:w-7/12"
 				>
 					<input
 						type="text"
