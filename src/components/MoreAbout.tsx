@@ -1,46 +1,97 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { TECollapse } from 'tw-elements-react';
 
-function MoreAbout() {
+export default function MoreAbout(): JSX.Element {
+	const [activeElement, setActiveElement] = useState('');
+
+	const handleClick = (value: string) => {
+		if (value === activeElement) {
+			setActiveElement('');
+		} else {
+			setActiveElement(value);
+		}
+	};
 	return (
-    <div>
-      
-      <div
-			className="hidden md:flex flex-col justify-center items-center 
-      px-96 py-10 overflow-hidden text-lg  "
-		>
-			<h2 className="font-serif font-bold text-2xl ">More About Me</h2>
-			<div className="p-3 bg-white border border-white rounded-md">
-				<p>
-					During my time as a Linguistics student, I made friends with tech
-					people who introduced me to the world of programming in many forms.
-					The more I learnt, the more deeply I fell for the tech field. Now, I
-					can finally take this love and use it apply to my own projects and to
-					a career in the engrossing industry of tech.
-				</p>
+		<>
+			<div id="accordionExample">
+				<div className="rounded-t-lg border border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+					<h2 className="mb-0" id="headingOne">
+						<button
+							className={`${
+								activeElement === 'element1' &&
+								`text-primary [box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:!text-primary-400 dark:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]`
+							} group relative flex w-full items-center rounded-t-[15px] border-0 bg-white px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white`}
+							type="button"
+							onClick={() => handleClick('element1')}
+							aria-expanded="true"
+							aria-controls="collapseOne"
+						>
+							Accordion Item #1
+							<span
+								className={`${
+									activeElement === 'element1'
+										? `rotate-[-180deg] -mr-1`
+										: `rotate-0 fill-[#212529]  dark:fill-white`
+								} ml-auto h-5 w-5 shrink-0 fill-[#336dec] transition-transform duration-200 ease-in-out motion-reduce:transition-none dark:fill-blue-300`}
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									strokeWidth="1.5"
+									stroke="currentColor"
+									className="h-6 w-6"
+								>
+									<path
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+									/>
+								</svg>
+							</span>
+						</button>
+					</h2>
+					<TECollapse
+						show={activeElement === 'element1'}
+						className="!mt-0 !rounded-b-none !shadow-none"
+					>
+						<div className="px-5 py-4">
+							<p>
+								During my time as a Linguistics student, I made friends with
+								tech people who introduced me to the world of programming in
+								many forms. The more I learnt, the more deeply I fell for the
+								tech field. Now, I can finally take this love and use it apply
+								to my own projects and to a career in the engrossing industry of
+								tech.
+							</p>
 
-				<p>
-					As a Dev academy grad, I have a skill set that makes me a valuable
-					team member. Knowledge of different front-end and backend tech
-					enforced by incredibly desirable people skills that makes me a
-					valuable team member.
-				</p>
+							<br />
 
-				<p>
-					My people skills include my ability to breakdown concepts for people
-					not familiar with them from my experience in Teaching English to
-					Speakers of Other Languages (TESOL). Client side communication and
-					problem solving from my time as a Desktop Platform intern. From Dev
-					Academy, I learnt how to have confronting but important professional
-					conversations, how to work in groups ranging from 2 to 5 members and
-					how to contribute to project ideas, hold meetings, having
-					conversations about individuals' well being and how to work with
-					various abilities learning goals. Below are my top tech Skills:
-				</p>
+							<p>
+								As a Dev academy grad, I have a skill set that makes me a
+								valuable team member. Knowledge of different front-end and
+								backend tech enforced by incredibly desirable people skills that
+								makes me a valuable team member.
+							</p>
+
+							<br />
+              
+							<p>
+								My people skills include my ability to breakdown concepts for
+								people not familiar with them from my experience in Teaching
+								English to Speakers of Other Languages (TESOL). Client side
+								communication and problem solving from my time as a Desktop
+								Platform intern. From Dev Academy, I learnt how to have
+								confronting but important professional conversations, how to
+								work in groups ranging from 2 to 5 members and how to contribute
+								to project ideas, hold meetings, having conversations about
+								individuals' well being and how to work with various abilities
+								learning goals. Below are my top tech Skills:
+							</p>
+						</div>
+					</TECollapse>
+				</div>
 			</div>
-		</div>
-    </div>
-		
+		</>
 	);
 }
-
-export default MoreAbout;

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./index.html', './src/**/*.{tsx, ts}'],
+	content: ['./index.html', './src/**/*.{tsx, ts}', "./node_modules/tw-elements-react/dist/js/**/*.js"],
 	darkMode: 'class',
 	theme: {
 		colors: {
