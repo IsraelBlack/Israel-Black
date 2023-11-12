@@ -2,7 +2,9 @@ import React from 'react';
 
 function MoreAbout() {
 	return (
-		<div
+    <div>
+      
+      <div
 			className="hidden md:flex flex-col justify-center items-center 
       px-96 py-10 overflow-hidden text-lg  "
 		>
@@ -36,6 +38,8 @@ function MoreAbout() {
 				</p>
 			</div>
 		</div>
+    </div>
+		
 	);
 }
 
