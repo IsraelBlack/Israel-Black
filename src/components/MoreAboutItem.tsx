@@ -19,7 +19,9 @@ export const ExpandableColumn = () => {
     <div> {/* text */}
       More About Me
     </div>
-    <button></button>
+    <button>
+      
+    </button>
   </div>
   )
 };
