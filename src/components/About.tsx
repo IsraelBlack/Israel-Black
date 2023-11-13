@@ -1,4 +1,4 @@
-import React from 'react';
+
 import AboutItem from './AboutItem';
 
 function About() {

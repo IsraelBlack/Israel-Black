@@ -1,4 +1,4 @@
-import React from 'react';
+
 import projects from '../data/projects.ts';
 import ProjectsItem from './ProjectsItem';
 
