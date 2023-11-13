@@ -1,6 +1,6 @@
-import React from 'react';
 
-function EmailMe() {
+
+function EmailMe(): JSX.Element {
 	return (
 		<div className="flex flex-col mb-10 mx-auto">
 			<div className="flex justify-center items-center">

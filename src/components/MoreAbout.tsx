@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { TECollapse } from 'tw-elements-react';
 
 export default function MoreAbout(): JSX.Element {
