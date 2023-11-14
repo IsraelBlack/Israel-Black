@@ -1,5 +1,3 @@
-
-
 function EmailMe() {
 	return (
 		<div className="flex flex-col mb-10 mx-auto">
