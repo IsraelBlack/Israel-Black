@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import { TECollapse } from 'tw-elements-react';
 
 export default function MoreAbout(): JSX.Element {
@@ -12,7 +12,7 @@ export default function MoreAbout(): JSX.Element {
 		}
 	};
 	return (
-		<div className=" m-10 rounded-lg shadow-cust md:border-none border-gray bg-white ">
+		<div className=" m-10 md:my-10 md:mx-40 rounded-lg shadow-cust md:border-none border-gray bg-white ">
 			<h2 className="mb-0">
 				<button
 					className={`${
